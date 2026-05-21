@@ -63,11 +63,6 @@ public class arenaPertarunganDinamis {
                     continue;
                 }
 
-                if (pilihanTarget < 1 || pilihanTarget > gelombangMonster.size()) {
-                    System.out.println("Pilihan tidak valid! Anda membuang giliran.");
-                    continue;
-                }
-
                 int indeksMonster = pilihanTarget - 1;
                 musuh target = gelombangMonster.get(indeksMonster);
 
